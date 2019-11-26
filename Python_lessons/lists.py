@@ -27,4 +27,9 @@ print(operating_systems[3])
 print(operating_systems[4])
 print(operating_systems[5])
 
+# Срезы - часть списка
+# Возвращает указанные значения "от и до"
+print(operating_systems[0:4])
+print(operating_systems[:5])
+
 
