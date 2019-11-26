@@ -6,4 +6,8 @@ print(operating_systems)
 operating_systems_count = len(operating_systems)
 print(operating_systems_count)
 
+# <.append> - метод, который добовляет элемент в конец списка
+operating_systems.append('Linux Mint')
+print(operating_systems)
+
 
