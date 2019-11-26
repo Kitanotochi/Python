@@ -32,4 +32,7 @@ print(operating_systems[5])
 print(operating_systems[0:4])
 print(operating_systems[:5])
 
+# Возвращает элемент с конца списка
+print(operating_systems[-1])
+
 
