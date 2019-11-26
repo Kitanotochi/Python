@@ -19,4 +19,12 @@ print(operating_systems.count('Debian'))
 print(operating_systems.count('Kali linux'))
 print(operating_systems.count('Linux Mint'))
 
+# Обрщение к элементам списка по индексу
+print(operating_systems[0])
+print(operating_systems[1])
+print(operating_systems[2])
+print(operating_systems[3])
+print(operating_systems[4])
+print(operating_systems[5])
+
 
