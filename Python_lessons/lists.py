@@ -10,4 +10,13 @@ print(operating_systems_count)
 operating_systems.append('Linux Mint')
 print(operating_systems)
 
+# <.count> - метод, с помощью которого можно подсчитать кол-во интересующих элементов. Элемент 'Debian' отсутствует в списке: поэтому приравнивается в нулю.
+print(operating_systems.count('Mac OS'))
+print(operating_systems.count('Windows'))
+print(operating_systems.count('Ubuntu'))
+print(operating_systems.count('Fedora'))
+print(operating_systems.count('Debian'))
+print(operating_systems.count('Kali linux'))
+print(operating_systems.count('Linux Mint'))
+
 
