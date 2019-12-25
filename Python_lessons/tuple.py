@@ -21,3 +21,14 @@ users_list = ["Alexandr", "Sam", "Nikol"]
 users_tuple = tuple(users_list)
 print(users_tuple)
 
+# К кортежу можно обращаться по элементам, так же как и по индексу в списках.
+# Индексация начинается с нуля, а сели индексировать с конца элементов, то -1.
+# Пример:
+users = ("Alexandr", "Sam", "Nikol")
+print(users[0])  
+print(users[2])   
+print(users[-1])
+ 
+# получим часть кортежа со 2 по 4 элемент.
+print(users[1:4]) 
+
