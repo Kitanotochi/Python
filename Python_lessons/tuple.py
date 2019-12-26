@@ -32,3 +32,30 @@ print(users[-1])
 # получим часть кортежа со 2 по 4 элемент.
 print(users[1:4]) 
 
+# При необходимости кортеж можно разложить на отдельные переменные.
+# Пример:
+user = ("Sam", 35, False)
+name, age, isMarried = user
+print(name)             # Sam
+print(age)              # 35
+print(isMarried)        # False
+
+# Картежи удобно использовать в случае, когда нужно возвратить несколько значений из функции.
+# Когда функция возвращает несколько значений, фактически она возвращает в кортеж.
+# Пример:
+def get_user():
+    name = "Sam"
+    age = 35
+    is_married = False
+    return name, age, is_married
+ 
+user = get_user()
+print(user[0])              # Sam
+print(user[1])              # 35
+print(user[2])              # False
+
+# Функция <len()> позволит получить длину кортежа.
+# Пример:
+user = ("Sam", 35, False)
+print(len(user))        # 3
+
