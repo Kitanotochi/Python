@@ -74,3 +74,12 @@ while i < len(user):
     print(user[i])
     i += 1
 
+# Кортеж можно проверить на наличие элементов, в помощью выражения <in>.
+# Пример:
+user = ("Sam", 35, False)
+name = "Sam"
+if name in user:
+    print("Пользователя зовут Sam")
+else:
+    print("Пользователь имеет другое имя")
+
