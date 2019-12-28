@@ -59,3 +59,10 @@ print(user[2])              # False
 user = ("Sam", 35, False)
 print(len(user))        # 3
 
+# Так-же можно для перебора кортежа использовать стандартные циклы <for> и <while>
+# Пример:
+user = ("Sam", 35, False)
+for item in user:
+    print(item)
+
+    
