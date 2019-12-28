@@ -65,4 +65,12 @@ user = ("Sam", 35, False)
 for item in user:
     print(item)
 
-    
+# Используем цикл <while>.
+# Пример:
+user = ("Sam", 35, False)
+ 
+i = 0
+while i < len(user):
+    print(user[i])
+    i += 1
+
