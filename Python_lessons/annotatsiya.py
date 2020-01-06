@@ -2,3 +2,8 @@
 # Контроль типов без использования аннотаций
 # Пример:
 name = "Alex" # type: str
+name = "Alex"
+print(name)
+name = 10
+print("name")
+
